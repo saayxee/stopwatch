@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-family: "Inter";
+}
+main {
+  text-align: center;
+  width: 385px;
+}
+.time {
+  font-size: 5rem;
+}
+#reset,
+#startStop {
+  height: 80px;
+  width: 80px;
+  border: none;
+  border-radius: 5000000px;
+  background-color: #0e0e0e;
+  outline: 2px solid #0e0e0e;
+  outline-offset: 1px;
+  color: rgb(100, 100, 100);
+  font-size: 1.1rem;
+}
+#startStop {
+  background-color: #153019;
+  color: #24bb3b;
+  outline: 2px solid #153019;
+  outline-offset: 1px;
+}
+#startStop.resume {
+  background-color: #302007;
+  color: #b18148;
+  outline: 2px solid #302007;
+  outline-offset: 1px;
+}
+#startStop.stop {
+  background-color: #401011;
+  color: #e44343;
+  outline: 2px solid #401011;
+  outline-offset: 1px;
+}
+.options {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 5%;
+}
+.time-row {
+  display: flex;
+  font-size: 6rem;
+  margin-bottom: 10px;
+}
