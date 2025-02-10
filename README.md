@@ -1,4 +1,4 @@
-# 🛒 Stopwatch Web Application
+# ⌛ Stopwatch Web Application
 > [!Note]
 > The design of this stopwatch project was inspired by the IOS design.
 > 
